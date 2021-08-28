@@ -1,0 +1,49 @@
+.drag-and-drop-grouped-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    cursor: grab;
+    user-select: none;
+}
+
+.small-block {
+    height: 100px;
+    width: 338px;
+    background-color: burlywood;
+}
+
+.middle-block {
+    height: 300px;
+    width: 338px;
+    background-color: gold;
+}
+
+.empty-block {
+    width: 200px;
+    height: 0;
+    overflow: hidden;
+}
+
+.big-block {
+    height: 300px;
+    width: 696px;
+    background-color: darkgreen;
+}
+
+.moveBlock {
+    opacity: 0.5;
+}
+
+.over {
+    border: 2px dashed black;
+    opacity: 0.5;
+}

@@ -1,0 +1,29 @@
+.pageContainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+.menuItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menuItem:hover {
+    opacity: 0.5;
+}
+
+.grouped-blocks {
+    background-color: black;
+}
+
+.table-columns {
+    background-color: teal;
+}
